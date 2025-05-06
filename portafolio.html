@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mi portfolio (Estático)</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 left-column">
+                <div class="mb-4 mt-5 d-flex flex-column align-items-center text-light">
+                    <img src="Images/stock-vector-logo-letter-monogram-initial-designs-template-isolated-white-background.jpeg" alt="Logo" class="rounded-circle " style="width: 100px; height: 100px;">
+
+                    <h4 class="mt-2">Tomás Pastrana</h4>
+
+                </div>
+                <ul class="nav flex-column ">
+                    <li class="nav-item">
+                      <a class="nav-link active text-uppercase text-center" aria-current="page" href="#inicio">HOLA</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a class="nav-link text-uppercase text-center" href="#quien-soy">SOBRE MI</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-uppercase text-center" href="#trabajos">TRABAJOS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-uppercase text-center" href="#hablemos">CONTACTO</a>
+                    </li>
+                  </ul>
+                  <div class="mt-5 text-light">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <a href="index.html" class="btn btn-primary mt-5">Administrar Proyectos</a>
+                        </div>
+               </div>
+            </div>
+
+            <div class="col-md-10 right-column" style="padding:0;">
+
+                <div id="inicio" class="sec-section border-bottom ">
+                    <h1 class="title">!HOLA! <br> Convierto tus ideas en una realidad factible</h1>
+                    <h3>Soy <a href="#quien-soy">Tomas Pastrana</a> y soy Licenciado en análisis de Sistemas, además de ser un gran desarrollador web</h3>
+                    <h3>Si gustas puedes ver los <a href="#trabajos">últimos trabajos </a> en los que me desempeñé y formé parte</h3>
+                    <h3>Te invito a que nos
+                    <a href="#hablemos">conozcamos </a> mejor, estaré encantado de responderte lo más antes posible</h3>
+                </div>
+
+                <div id="quien-soy" class= "sec-section border-bottom ">
+                    <h1>¿QUIÉN SOY?</h1>
+                    <div class="subtitle">UN POCO DE CONTEXTO</div>
+                    <p>Primero que nada, gracias por visitar una parte de mí. Déjame presetnarme nuevamente, mi nombre es Tomás Pastrana,
+                      estudiante de la carrera de análisis de sistemas desde la ciudad que me vio crecer, Salta La Linda.</p>
+                    <p>Además de mis estudios en curso, he hecho varios proyectos entusiastas que no dejan nada que desear</p>
+                    <p>m, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                </div>
+
+                <div id="trabajos" class="sec-section border-bottom">
+                      <div class="container mt-5">
+                        <div class="row">
+                          <div class="col-12">
+                            <h2>Últimos trabajos</h2> <p class="trabajos-subtitle">― UNA PEQUEÑA MUESTRA</p>
+                          </div>
+                        </div>
+                      </div>
+
+                    <div class="container mt-4">
+                      <div class="row">
+
+                        <div class="col-sm-12 col-md-6 col-lg-3 p-2 mb-4">
+                              <a href="index.html" class="card add-project-card card-lift card-deep-blue d-flex justify-content-center align-items-center text-decoration-none" title="Agregar Nuevo Proyecto">
+                                  <div class="card-body d-flex justify-content-center align-items-center">
+                                      <h5 class="card-title display-1">+</h5>
+                                  </div>
+                              </a>
+                          </div>
+
+                        <div class="col-sm-12 col-md-6 col-lg-3  p-2 mb-4">
+                            <div class="card border-0 card-lift card-deep-blue">
+                                <img src="Images/ChatGPT Image 2 may 2025, 20_52_37-Photoroom.png" class="card-img-top p-3" alt="Título del Proyecto 1">
+                              <div class="card-body">
+                                <h5 class="card-title">Método RUSsel</h5>
+                                <p class="card-text">Resuelve cosas.</p>
+                                <div class="tech-badges-container mb-3">
+                                    <span class="badge tech-badge">Lenguaje de Programación JAVA</span>
+                                </div>
+                                <a href="#" class="btn btn-primary">Ver Proyecto</a>
+                              </div>
+                            </div>
+                        </div>
+
+                         <div class="col-sm-12 col-md-6 col-lg-3 p-2 mb-4">
+                            <div class="card border-0 card-lift card-deep-blue">
+                                <img src="Images/Logical_replication-Photoroom.png" class="card-img-top p-3" alt="Título del Proyecto 2">
+                              <div class="card-body">
+                                <h5 class="card-title">Autómata Aleph</h5>
+                                <p class="card-text">Aleph es un lenguaje de programación de conjuntos de propósito específico diseñado para la definición y manipulación concisa de estructuras formales como conjuntos y autómatas finitos. Desarrollado utilizando C para su núcleo de ejecución y las poderosas herramientas Flex (para el análisis léxico) y Bison (para el análisis sintáctico), Aleph permite a los usuarios especificar autómatas finitos de manera intuitiva y verificar la pertenencia de cadenas a los lenguajes que reconocen. Este proyecto destaca la aplicación práctica de herramientas de construcción de compiladores en la creación de lenguajes de dominio específico para el estudio y la experimentación con la teoría de la computación. Ideal para entornos académicos o para profesionales que trabajen con gramáticas y reconocedores de patrones.</p>
+                                <div class="tech-badges-container mb-3">
+                                    <span class="badge tech-badge">C</span>
+                                    <span class="badge tech-badge">Flex</span>
+                                    <span class="badge tech-badge">Bison</span>
+                                </div>
+                                <a href="#" class="btn btn-primary">Ver Proyecto</a>
+                              </div>
+                            </div>
+                        </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div id="hablemos" class="sec-section">
+                    <h2>¿HABLEMOS?</h2>
+                    <form action="#" method="post"> <div class="container">
+                          <div class="row g-2">
+                            <div class="col-md-6">
+                              <input type="text" name="nombre" required placeholder="Ingrese su nombre" class="form-control"/>
+                            </div>
+
+                            <div class="col-md-6">
+                                <input type="text" name="apellido" required placeholder="Ingrese su apellido" class="form-control"/>
+                            </div>
+
+
+                            <div  class="col-md-6">
+                                <input type="tel" id="telefono" name="telefono" required placeholder="Ingrese su teléfono" pattern="[0-9]{10}" class="form-control"/>
+                            </div>
+
+                            <div  class="col-md-6">
+                                <input type="email" id="email" name="email" required placeholder="Ingrese su email" class="form-control"/>
+                            </div>
+                          </div>
+
+                        </div>
+
+
+                      <div >
+                          <label for="mensaje">Quiero conocerte y saber lo que necesitas</label><br/>
+                          <textarea class="col-md-12" id="mensaje" name="mensaje" rows="5" cols="40" required placeholder="Escribe aquí tu mensaje"> </textarea>
+
+                      </div>
+
+                      <div class="final-form-container    ">
+                          <label class="checkbox-container">
+                              <input type="checkbox" required>
+                              <span>Estoy de acuerdo con Términos y Condiciones</span>
+                          </label>
+                          <input type="submit" value="Enviar Solicitud" style="background-color: brown; color: white; padding: 10px; border: none; border-radius: 5px; cursor: pointer;"/>
+                      </div>
+
+                      <br/>
+
+
+                  </form>
+
+
+                </div>
+
+
+            </div>
+
+    </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+      <script src="portafolio.js"></script>
+</body>
+</html>
